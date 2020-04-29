@@ -255,6 +255,7 @@ nav ul li a:hover {
 
 .blogger ul a {
     font-size: 1.7rem;
+    font-weight: bold;
     text-decoration: none;
     margin: 0.5rem;
     color: #000;
