@@ -81,7 +81,6 @@ nav ul li a:hover {
 .testimonial {
     display: grid;
     place-items: center;
-    background: #F3F6FA;
 }
 
 .testimonial h1 {
@@ -119,7 +118,6 @@ nav ul li a:hover {
     width: 100%;
 }
 
-
 /* Section:Blog  */
 
 .blog {
@@ -154,7 +152,6 @@ nav ul li a:hover {
     font-size: 1rem;
     line-height: 2rem;
 }
-
 
 /* From Section */
 
@@ -200,16 +197,22 @@ nav ul li a:hover {
 }
 
 .form .text-area form a {
-    padding: 0.6rem 3.5rem;
+    padding: 0.6rem 3rem;
     background: #f4f4f4;
     color: #000;
     text-decoration: none;
     cursor: pointer;
     text-align: center;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 3px;
     border-bottom: 3px solid #fff;
     position: absolute;
+    margin-left: 0.5rem;
+}
+
+.form .text-area form a:hover {
+    background-color: #811fd1;
+    border-bottom: 3px solid #811fd1;
+    color: #fff;
 }
 
 .form .text-area form input {
@@ -217,8 +220,7 @@ nav ul li a:hover {
     background-color: #4966F7;
     padding: 0.7rem;
     border: 2px solid #fff;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
 }
 
 .text-area form p {
@@ -227,7 +229,6 @@ nav ul li a:hover {
     line-height: 2rem;
     color: #fff;
 }
-
 
 /* Blog:Section  */
 
@@ -294,7 +295,6 @@ nav ul li a:hover {
 .text-area h4 {
     padding: 1rem 0;
 }
-
 
 /* Footer: Container */
 
@@ -375,7 +375,6 @@ nav ul li a:hover {
     font-size: 0.7rem;
     color: #fff;
 }
-
 
 /* Meadia Quearies */
 
